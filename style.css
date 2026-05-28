@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+.Main {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+.Box {
+  width: 23vw;
+  height: 40vh;
+  transition: all 1s ease-in-out;
+  display: flex;
+  font-size: 8vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.Sub1 {
+  position: absolute;
+  background-color: red;
+  top: 30vh;
+  left: 4vw;
+}
+.Sub2 {
+  position: absolute;
+  background-color: green;
+  top: 35vh;
+  left: 28vw;
+}
+.Sub3 {
+  position: absolute;
+  background-color: blue;
+  top: 30vh;
+  left: 52vw;
+}
+.Sub4 {
+  position: absolute;
+  background-color: yellow;
+  top: 35vh;
+  left: 76vw;
+}
+.Sub5 img {
+  width: 150px;
+  height: auto;
+  position: fixed;
+  top: 3vh;
+  left: 2vw;
+}
+.Main:hover .Sub1 {
+  border: 5px solid red;
+  background-color: white;
+  color: red;
+  transform: rotate(-8deg);
+  top: 35vh;
+}
+.Main:hover .Sub2 {
+  border: 5px solid green;
+  background-color: white;
+  color: green;
+  transform: rotate(2deg);
+  top: 30vh;
+}
+.Main:hover .Sub3 {
+  border: 5px solid blue;
+  background-color: white;
+  color: blue;
+  transform: rotate(-8deg);
+  top: 35vh;
+}
+.Main:hover .Sub4 {
+  border: 5px solid yellow;
+  background-color: white;
+  color: yellow;
+  transform: rotate(5deg);
+  top: 30vh;
+}
+.Main2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
